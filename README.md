@@ -18,7 +18,7 @@ This learning path covers essential LLM engineering skills:
 
 ### 📘 Day 1: Introduction to LLMs and Web Scraping
 
-**File:** `day1.ipynb`
+**File:** `day1_intro.ipynb`
 
 Learn the fundamentals of working with LLMs and build your first practical application.
 
@@ -36,7 +36,7 @@ Learn the fundamentals of working with LLMs and build your first practical appli
 
 ### 📘 Day 2: Extracting Links with JSON Response Format
 
-**File:** `day2.ipynb`
+**File:** `day2_parser.ipynb`
 
 Extract and intelligently filter links from websites using structured JSON responses.
 
@@ -54,7 +54,7 @@ Extract and intelligently filter links from websites using structured JSON respo
 
 ### 📘 Day 3: Working with Multiple LLM Providers
 
-**File:** `day3.ipynb`
+**File:** `day3_adv_conv.ipynb`
 
 Compare different LLM providers and create interactions between models.
 
@@ -72,7 +72,7 @@ Compare different LLM providers and create interactions between models.
 
 ### 📘 Day 4: Building Interactive Web UIs with Gradio
 
-**File:** `day4.ipynb`
+**File:** `day4_gradio.ipynb`
 
 Create web interfaces for LLM applications with real-time streaming.
 
@@ -90,7 +90,7 @@ Create web interfaces for LLM applications with real-time streaming.
 
 ### 📘 Day 5: Exploring Transformers and Hugging Face Hub
 
-**File:** `day5.ipynb`
+**File:** `day5_hf_pipelines.ipynb`
 
 Work with pre-trained transformer models for various NLP tasks. (Requires Google Colab)
 
@@ -109,7 +109,7 @@ Work with pre-trained transformer models for various NLP tasks. (Requires Google
 
 ### 📘 Day 6: Tokenization and Chat Templates
 
-**File:** `day6.ipynb`
+**File:** `day6_tokenization.ipynb`
 
 Master tokenizers and learn how to format conversations for different models. (Requires Google Colab)
 
@@ -127,7 +127,7 @@ Master tokenizers and learn how to format conversations for different models. (R
 
 ### 📘 Day 7: Model Quantization and Local LLM Deployment
 
-**File:** `day7.ipynb`
+**File:** `day7_hf_models.ipynb`
 
 Run large language models efficiently on resource-constrained devices. (Requires Google Colab)
 
@@ -203,13 +203,13 @@ Each notebook is self-contained and includes:
 
 ```
 llm_engineering/
-├── day1.ipynb          # LLMs & Web Scraping
-├── day2.ipynb          # Link Extraction with JSON
-├── day3.ipynb          # Multiple Providers
-├── day4.ipynb          # Gradio UI Development
-├── day5.ipynb          # Transformers & NLP Tasks
-├── day6.ipynb          # Tokenization & Chat Templates
-├── day7.ipynb          # Quantization & Local Deployment
+├── day1_intro.ipynb          # LLMs & Web Scraping
+├── day2_parser.ipynb         # Link Extraction with JSON
+├── day3_adv_conv.ipynb       # Multiple Providers
+├── day4_gradio.ipynb         # Gradio UI Development
+├── day5_hf_pipelines.ipynb   # Transformers & NLP Tasks
+├── day6_tokenization.ipynb   # Tokenization & Chat Templates
+├── day7_hf_models.ipynb      # Quantization & Local Deployment
 ├── pyproject.toml      # Project configuration
 └── README.md          # This file
 ```
