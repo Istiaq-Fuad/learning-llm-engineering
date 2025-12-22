@@ -11,3 +11,6 @@ wheels/
 
 # virtual envs
 .env
+
+# temp files
+main.rs
