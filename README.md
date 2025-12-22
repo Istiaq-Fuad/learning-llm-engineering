@@ -1,6 +1,6 @@
 # LLM Engineering Learning Path
 
-A comprehensive 7-day hands-on learning journey for mastering Large Language Models (LLMs) and modern NLP techniques. This codebase guides you from fundamental API usage through advanced model deployment and optimization.
+This codebase guides you from fundamental API usage through advanced model deployment, optimization, and code generation.
 
 ## Overview
 
@@ -148,6 +148,24 @@ Run large language models efficiently on resource-constrained devices. (Requires
 
 ---
 
+### 📘 Day 8: Code Generation and Language Porting
+
+**File:** `day8_code_generator.ipynb`
+
+Build a Gradio tool that ports Python code to high-performance Rust or C++ using LLMs, then compiles and runs the generated code.
+
+**Topics:**
+
+- Selecting LLM backends (Groq, optional Gemini)
+- Crafting system/user prompts for code translation
+- Stripping fenced code blocks from responses
+- Compiling and executing generated Rust/C++ code from Python
+- Displaying interactive results with Gradio
+
+**Key Skills:** Code generation, prompt design for compilers, Gradio UI, execution safety
+
+---
+
 ## Prerequisites
 
 ### General Requirements
@@ -160,6 +178,8 @@ Run large language models efficiently on resource-constrained devices. (Requires
 
 - **Mistral AI**: Get from [console.mistral.ai](https://console.mistral.ai)
 - **OpenRouter** (Day 3 only): Get from [openrouter.ai](https://openrouter.ai)
+- **Groq** (Day 8): Get from [console.groq.com](https://console.groq.com)
+- **Gemini** (Day 8, optional): Get from [ai.google.dev](https://ai.google.dev)
 
 ### Environment Setup
 
@@ -168,6 +188,8 @@ Create a `.env` file in the root directory:
 ```env
 MISTRAL_API_KEY=your_mistral_api_key_here
 OPENROUTER_API_KEY=your_openrouter_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 HF_TOKEN=your_huggingface_token_here
 ```
 
@@ -210,6 +232,7 @@ llm_engineering/
 ├── day5_hf_pipelines.ipynb   # Transformers & NLP Tasks
 ├── day6_tokenization.ipynb   # Tokenization & Chat Templates
 ├── day7_hf_models.ipynb      # Quantization & Local Deployment
+├── day8_code_generator.ipynb # Code Generation & Porting
 ├── pyproject.toml      # Project configuration
 └── README.md          # This file
 ```
